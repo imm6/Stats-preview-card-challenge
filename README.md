@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the Stats preview card component coding challenge](./design/screenshot.PNG)
-![](./screenshot2.png)
+![Dekstop Image](./design/screenshot.PNG)
+![Mobile Image](./design/screenshot2.PNG)
 
 ### Links
 
