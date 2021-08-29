@@ -1,0 +1,203 @@
+:root{
+
+    --verydark: hsl(233,47%,7%);
+    --darkdesaturated: hsl(244,38%,16%);
+    --softviolet: rgb(170, 92, 219);
+    --whitemodificated: hsla(0, 0%, 100%, 0.75);
+    --whitemod2:  hsla(0, 0%, 100%, 0.6);
+    --bg-violet: rgba(194, 95, 255, 0.671);
+    --bg-light-violet: hsl(244,38%,%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+body{
+    background-color: var(--verydark);
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+b{
+    color: var(--softviolet);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    background-color: var(--darkdesaturated);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 360px;
+    box-shadow: 0px 0.1px 1px rgba(0, 0, 0, 0.11);
+}
+
+.card-image{
+    background-image: url(../images/image-header-desktop.jpg);
+    border-radius: .5rem .5rem 0 0;
+    height: 28rem;
+    width: 100%;
+    background-size: cover;
+}
+
+.overlay {
+    background: var(--bg-light-violet);
+    height: 100%;
+  }
+  
+.overlay-2 {
+    background: var(--bg-violet);
+    height: 100%;
+    mix-blend-mode: color-burn;
+  }
+
+.card-txt{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;
+  }
+
+.card-title{
+   font-size: 1.35rem;
+   font-weight: 700;
+}
+
+.card-body-text{
+    font-family: "Lexend Deca", sans-serif;
+        letter-spacing: -.03rem;
+        line-height:3rem;
+        font-weight: 400;
+        color: var(--whitemodificated);
+        font-size: 1.6rem;
+        opacity: .75;
+}
+.card-footer-social-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card-footer-social-text{
+    font-size: 1.4rem;
+    opacity: .75;
+    color: var(--whitemod2);
+    text-transform: uppercase;
+  }
+
+
+
+
+
+  /* Media Querys */
+
+@media (min-width: 1100px) {
+    .flex{
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card{
+        display: flex;
+        min-width: 130rem;
+        min-height: 50rem;
+        flex-direction: row-reverse;
+        background-color: var(--darkdesaturated);
+        overflow: hidden;
+        border-radius: 1rem;
+        /* padding: 5rem; */
+    }
+    
+    .card-title{
+        font-family: "Inter", sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: .07rem;
+        line-height: 5rem;
+        margin-bottom: 1.65rem;
+        margin-top: 6rem;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+        
+    .card-image{
+        background-image: url(../images/image-header-desktop.jpg);
+        border-radius: .5rem .5rem 0 0;
+        height: 50rem;
+        width: 100%;
+        background-size: cover;
+    }
+    
+    .card-body-text{
+        font-family: "Lexend Deca", sans-serif;
+        letter-spacing: -.03rem;
+        line-height:3rem;
+        font-weight: 400;
+        color: var(--whitemodificated);
+        font-size: 2rem;
+        opacity: .75;
+        margin-bottom: 8rem;
+        margin-top: 4rem;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+    
+    .card-txt{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        text-decoration: none;
+        text-align: unset;
+    }
+    
+    .card-footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .card-footer-social-title{
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 2.7rem;
+    }
+    
+    .card-footer-social-text{
+      font-family: "Lexend Deca", sans-serif;
+      font-size: 1.5rem;
+      letter-spacing: .3rem;
+      margin-top: -1rem;
+      opacity: .6;
+      text-transform: uppercase;
+      width: 9rem;
+      color: var(--whitemod2);
+    }
+    
+    .overlay {
+        background: var(--bg-light-violet);
+        height: 100%;
+      }
+      
+      .overlay-2 {
+        background: var(--bg-violet);
+        height: 100%;
+        mix-blend-mode: color-burn;
+      }
+  }
+
+
+
+
+
+
