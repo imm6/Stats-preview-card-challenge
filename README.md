@@ -13,7 +13,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/htmlcss-practice-3-vZRxWpxwA)
+- Live Site URL: [Live Site URL](https://stats-preview-card-challenge-9az39r5c9-spongedad2.vercel.app/)
 
 ## My process
 
